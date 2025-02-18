@@ -82,4 +82,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('gaurav/', include('gaurav.urls')),  # Added this line
     path('index/', include('index.urls')),
+    path('demo_project/', include('demo_project.urls')),  # Added this line
+    path('accounts/', include('accounts.urls')),  # Added this line
 ]
