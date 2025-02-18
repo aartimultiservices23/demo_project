@@ -82,4 +82,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('gaurav/', include('gaurav.urls')),  # Added this line
     path('index/', include('index.urls')),
+    path('shubham/', include('shubham.urls')),
 ]
