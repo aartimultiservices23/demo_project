@@ -81,4 +81,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('gaurav/', include('gaurav.urls')),  # Added this line
+    path('index/', include('index.urls')),
 ]
