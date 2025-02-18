@@ -84,4 +84,5 @@ urlpatterns = [
     path('index/', include('index.urls')),
     path('demo_project/', include('demo_project.urls')),  # Added this line
     path('accounts/', include('accounts.urls')),  # Added this line
+    path('shubham/', include('shubham.urls')),
 ]
